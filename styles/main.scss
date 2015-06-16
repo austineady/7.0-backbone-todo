@@ -434,3 +434,17 @@ label[for='toggle-all'] {
 .hidden{
 	display:none;
 }
+
+.save-button {
+  margin-left: 250px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: none;
+}
+
+.edit-task-text {
+  display: block;
+  width: 506px;
+  padding: 13px 17px 12px 17px;
+  margin: 0 0 0 43px;
+}

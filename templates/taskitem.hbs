@@ -1,0 +1,10 @@
+<li>
+  {{#if isEditing}}
+    <form class="edit-form">
+      <input type="text" value="{{task.content}}" class="edit-task-text">
+    </form>
+  {{else}}
+    <input type="checkbox" class="toggle">
+    <label class="task-text">{{task.content}}</label><button class="destroy"></button>
+  {{/if}}
+</li>
